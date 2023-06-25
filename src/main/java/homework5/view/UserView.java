@@ -1,6 +1,6 @@
 package main.java.homework5.view;
 
-import src.main.java.homework5.model.User;
+import main.java.homework5.model.User;
 
 public interface UserView<T extends User> {
 

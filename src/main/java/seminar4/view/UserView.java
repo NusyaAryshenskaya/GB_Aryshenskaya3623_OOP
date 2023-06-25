@@ -1,6 +1,6 @@
 package main.java.seminar4.view;
 
-import src.main.java.seminar4.model.User;
+import main.java.seminar4.model.User;
 
 public interface UserView<T extends User> {
 

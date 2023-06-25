@@ -1,6 +1,6 @@
 package main.java.seminar2.task2;
 
-import src.main.java.seminar2.task1.Actor;
+import main.java.seminar2.task1.Actor;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package main.java.homework5.service.iterator;
 
-import src.main.java.homework5.model.Student;
+import main.java.homework5.model.Student;
 
 import java.util.Iterator;
 import java.util.List;

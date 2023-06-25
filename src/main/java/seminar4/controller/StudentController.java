@@ -1,8 +1,8 @@
 package main.java.seminar4.controller;
 
-import src.main.java.seminar4.model.Student;
-import src.main.java.seminar4.service.StudentService;
-import src.main.java.seminar4.service.UserService;
+import main.java.seminar4.model.Student;
+import main.java.seminar4.service.StudentService;
+import main.java.seminar4.service.UserService;
 
 import java.util.List;
 

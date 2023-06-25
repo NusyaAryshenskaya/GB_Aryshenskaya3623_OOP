@@ -1,11 +1,11 @@
 package main.java.homework5;
 
-import src.main.java.homework5.service.init.Initializer;
-import src.main.java.homework5.service.randomizer.StudentClassGroupRandomizer;
-import src.main.java.homework5.view.SortType;
-import src.main.java.homework5.view.StudentClassView;
-import src.main.java.homework5.view.StudentView;
-import src.main.java.homework5.view.TeacherView;
+import main.java.homework5.service.init.Initializer;
+import main.java.homework5.service.randomizer.StudentClassGroupRandomizer;
+import main.java.homework5.view.SortType;
+import main.java.homework5.view.StudentClassView;
+import main.java.homework5.view.StudentView;
+import main.java.homework5.view.TeacherView;
 
 import java.io.IOException;
 

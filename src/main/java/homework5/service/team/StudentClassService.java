@@ -1,15 +1,15 @@
 package main.java.homework5.service.team;
 
-import src.main.java.homework5.model.Student;
-import src.main.java.homework5.model.StudentClass;
-import src.main.java.homework5.model.Teacher;
-import src.main.java.homework5.model.Team;
-import src.main.java.homework5.repository.StudentClassRepository;
-import src.main.java.homework5.repository.StudentRepository;
-import src.main.java.homework5.repository.TeacherRepository;
-import src.main.java.homework5.repository.TeamRepository;
-import src.main.java.homework5.service.comparator.StudentClassComparator;
-import src.main.java.homework5.service.datareader.StudentClassesLoader;
+import main.java.homework5.model.Student;
+import main.java.homework5.model.StudentClass;
+import main.java.homework5.model.Teacher;
+import main.java.homework5.model.Team;
+import main.java.homework5.repository.StudentClassRepository;
+import main.java.homework5.repository.StudentRepository;
+import main.java.homework5.repository.TeacherRepository;
+import main.java.homework5.repository.TeamRepository;
+import main.java.homework5.service.comparator.StudentClassComparator;
+import main.java.homework5.service.datareader.StudentClassesLoader;
 
 import java.io.IOException;
 import java.util.ArrayList;

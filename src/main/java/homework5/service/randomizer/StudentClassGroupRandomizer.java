@@ -1,8 +1,8 @@
 package main.java.homework5.service.randomizer;
 
-import src.main.java.homework5.model.StudentClass;
-import src.main.java.homework5.repository.StudentClassRepository;
-import src.main.java.homework5.service.team.StudentClassService;
+import main.java.homework5.model.StudentClass;
+import main.java.homework5.repository.StudentClassRepository;
+import main.java.homework5.service.team.StudentClassService;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
 package main.java.homework4.view;
 
-import src.main.java.homework4.controller.UserController;
-import src.main.java.homework4.model.Teacher;
+import main.java.homework4.controller.UserController;
+import main.java.homework4.model.Teacher;
 
 import java.util.List;
 

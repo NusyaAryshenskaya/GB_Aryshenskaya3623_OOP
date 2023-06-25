@@ -1,6 +1,6 @@
 package main.java.seminar4.service;
 
-import src.main.java.seminar4.model.Student;
+import main.java.seminar4.model.Student;
 
 import java.util.Iterator;
 import java.util.List;

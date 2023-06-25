@@ -1,9 +1,9 @@
 package main.java.seminar4.service;
 
-import src.main.java.seminar4.model.Student;
-import src.main.java.seminar4.model.User;
-import src.main.java.seminar4.repository.StudentRepository;
-import src.main.java.seminar4.repository.UserRepository;
+import main.java.seminar4.model.Student;
+import main.java.seminar4.model.User;
+import main.java.seminar4.repository.StudentRepository;
+import main.java.seminar4.repository.UserRepository;
 
 import java.util.Collections;
 import java.util.Comparator;

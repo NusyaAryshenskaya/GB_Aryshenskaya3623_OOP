@@ -1,6 +1,6 @@
 package main.java.homework5.view;
 
-import src.main.java.homework5.model.Team;
+import main.java.homework5.model.Team;
 
 public interface TeamView<T extends Team> {
 

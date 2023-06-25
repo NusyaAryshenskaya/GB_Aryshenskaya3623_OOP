@@ -1,6 +1,6 @@
 package main.java.seminar4.service;
 
-import src.main.java.seminar4.model.User;
+import main.java.seminar4.model.User;
 
 import java.util.Comparator;
 

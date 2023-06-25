@@ -2,7 +2,7 @@ package main.java.homework5.service.randomizer;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import src.main.java.homework5.service.datareader.DataReader;
+import main.java.homework5.service.datareader.DataReader;
 
 import java.io.IOException;
 import java.util.ArrayList;

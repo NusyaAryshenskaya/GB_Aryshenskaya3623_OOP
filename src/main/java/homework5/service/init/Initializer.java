@@ -2,19 +2,19 @@ package main.java.homework5.service.init;
 
 import lombok.Data;
 import lombok.Getter;
-import src.main.java.homework5.controller.StudentClassController;
-import src.main.java.homework5.controller.StudentController;
-import src.main.java.homework5.controller.TeacherController;
-import src.main.java.homework5.repository.StudentClassRepository;
-import src.main.java.homework5.repository.StudentRepository;
-import src.main.java.homework5.repository.TeacherRepository;
-import src.main.java.homework5.service.randomizer.StudentClassGroupRandomizer;
-import src.main.java.homework5.service.team.StudentClassService;
-import src.main.java.homework5.service.user.StudentService;
-import src.main.java.homework5.service.user.TeacherService;
-import src.main.java.homework5.view.StudentClassView;
-import src.main.java.homework5.view.StudentView;
-import src.main.java.homework5.view.TeacherView;
+import main.java.homework5.controller.StudentClassController;
+import main.java.homework5.controller.StudentController;
+import main.java.homework5.controller.TeacherController;
+import main.java.homework5.repository.StudentClassRepository;
+import main.java.homework5.repository.StudentRepository;
+import main.java.homework5.repository.TeacherRepository;
+import main.java.homework5.service.randomizer.StudentClassGroupRandomizer;
+import main.java.homework5.service.team.StudentClassService;
+import main.java.homework5.service.user.StudentService;
+import main.java.homework5.service.user.TeacherService;
+import main.java.homework5.view.StudentClassView;
+import main.java.homework5.view.StudentView;
+import main.java.homework5.view.TeacherView;
 
 import java.io.IOException;
 

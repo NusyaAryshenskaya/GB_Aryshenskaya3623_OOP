@@ -1,7 +1,7 @@
 package main.java.homework5.service.user;
 
-import src.main.java.homework5.model.Student;
-import src.main.java.homework5.model.User;
+import main.java.homework5.model.Student;
+import main.java.homework5.model.User;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package main.java.homework5.controller;
 
-import src.main.java.homework5.model.User;
+import main.java.homework5.model.User;
 
 import java.util.List;
 

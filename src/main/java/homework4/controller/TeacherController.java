@@ -1,8 +1,8 @@
 package main.java.homework4.controller;
 
-import src.main.java.homework4.model.Teacher;
-import src.main.java.homework4.service.TeacherService;
-import src.main.java.homework4.service.UserService;
+import main.java.homework4.model.Teacher;
+import main.java.homework4.service.TeacherService;
+import main.java.homework4.service.UserService;
 
 import java.util.List;
 

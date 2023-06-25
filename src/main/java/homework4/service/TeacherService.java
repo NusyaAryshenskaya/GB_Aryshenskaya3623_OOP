@@ -1,9 +1,9 @@
 package main.java.homework4.service;
 
-import src.main.java.homework4.model.Teacher;
-import src.main.java.homework4.model.User;
-import src.main.java.homework4.repository.TeacherRepository;
-import src.main.java.homework4.repository.UserRepository;
+import main.java.homework4.model.Teacher;
+import main.java.homework4.model.User;
+import main.java.homework4.repository.TeacherRepository;
+import main.java.homework4.repository.UserRepository;
 
 import java.util.Collections;
 import java.util.Comparator;

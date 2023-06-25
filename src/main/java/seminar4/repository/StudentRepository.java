@@ -1,6 +1,6 @@
 package main.java.seminar4.repository;
 
-import src.main.java.seminar4.model.Student;
+import main.java.seminar4.model.Student;
 
 import java.util.ArrayList;
 import java.util.List;

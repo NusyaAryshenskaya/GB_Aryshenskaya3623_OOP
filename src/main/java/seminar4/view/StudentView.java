@@ -1,7 +1,7 @@
 package main.java.seminar4.view;
 
-import src.main.java.seminar4.controller.UserController;
-import src.main.java.seminar4.model.Student;
+import main.java.seminar4.controller.UserController;
+import main.java.seminar4.model.Student;
 
 import java.util.List;
 

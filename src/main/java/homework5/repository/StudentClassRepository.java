@@ -1,6 +1,6 @@
 package main.java.homework5.repository;
 
-import src.main.java.homework5.model.StudentClass;
+import main.java.homework5.model.StudentClass;
 
 import java.util.ArrayList;
 import java.util.List;

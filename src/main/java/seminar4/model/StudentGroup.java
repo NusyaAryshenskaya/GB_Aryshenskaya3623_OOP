@@ -2,7 +2,7 @@ package main.java.seminar4.model;
 
 import lombok.Getter;
 import lombok.ToString;
-import src.main.java.seminar4.service.StudentGroupIterator;
+import main.java.seminar4.service.StudentGroupIterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

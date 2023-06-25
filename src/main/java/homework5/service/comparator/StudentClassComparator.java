@@ -1,6 +1,6 @@
 package main.java.homework5.service.comparator;
 
-import src.main.java.homework5.model.Team;
+import main.java.homework5.model.Team;
 
 import java.util.Comparator;
 

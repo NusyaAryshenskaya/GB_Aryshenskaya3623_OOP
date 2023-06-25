@@ -1,9 +1,9 @@
 package main.java.homework5.view;
 
-import src.main.java.homework5.controller.TeamController;
-import src.main.java.homework5.model.Student;
-import src.main.java.homework5.model.StudentClass;
-import src.main.java.homework5.model.Teacher;
+import main.java.homework5.controller.TeamController;
+import main.java.homework5.model.Student;
+import main.java.homework5.model.StudentClass;
+import main.java.homework5.model.Teacher;
 
 import java.util.List;
 

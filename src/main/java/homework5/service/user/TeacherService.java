@@ -1,11 +1,11 @@
 package main.java.homework5.service.user;
 
-import src.main.java.homework5.model.Teacher;
-import src.main.java.homework5.model.User;
-import src.main.java.homework5.repository.TeacherRepository;
-import src.main.java.homework5.repository.UserRepository;
-import src.main.java.homework5.service.comparator.UserComparator;
-import src.main.java.homework5.service.randomizer.TeacherRandomizer;
+import main.java.homework5.model.Teacher;
+import main.java.homework5.model.User;
+import main.java.homework5.repository.TeacherRepository;
+import main.java.homework5.repository.UserRepository;
+import main.java.homework5.service.comparator.UserComparator;
+import main.java.homework5.service.randomizer.TeacherRandomizer;
 
 import java.io.IOException;
 import java.util.ArrayList;
