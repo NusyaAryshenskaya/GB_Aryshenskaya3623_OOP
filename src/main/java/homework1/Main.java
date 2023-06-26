@@ -12,9 +12,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        HotDrink tea = new HotDrink("tea", 200, 90);
-        HotDrink coffee = new HotDrink("coffee", 300, 85);
-        HotDrink cocoa = new HotDrink("cocoa", 250, 75);
+        HotDrink tea = new HotDrink("Чай", 200, 90);
+        HotDrink coffee = new HotDrink("Кофе", 300, 80);
+        HotDrink cocoa = new HotDrink("Какао", 250, 75);
 
         HotDrinksVendingMachine vendingMachine = new HotDrinksVendingMachine();
 
@@ -22,10 +22,10 @@ public class Main {
         vendingMachine.addDrink(coffee);
         vendingMachine.addDrink(cocoa);
 
-        System.out.println(vendingMachine.getProduct("tea"));
-        System.out.println(vendingMachine.getProduct("coffee"));
-        System.out.println(vendingMachine.getProduct("cocoa"));
-        System.out.println(vendingMachine.getProduct(85));
+        System.out.println(vendingMachine.getProduct("Чай"));
+        System.out.println(vendingMachine.getProduct("Кофе"));
+        System.out.println(vendingMachine.getProduct("Какао"));
+        System.out.println(vendingMachine.getProduct(80));
 
     }
 }

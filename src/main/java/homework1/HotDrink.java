@@ -15,6 +15,6 @@ public class HotDrink extends Drink {
     }
 
     public String toString() {
-        return String.format("Напиток: \n%s: \n\t- объём: %s, \n\t- температура: %s", getNameDrink(), getVolume(), getTemperature());
+        return String.format("Горячий напиток: \n%s: \n\t- объём: %s, \n\t- температура: %s", getNameDrink(), getVolume(), getTemperature());
     }
 }
