@@ -26,7 +26,7 @@ public class TeacherView implements UserView<Teacher> {
             default -> null;
         };
         if (teachers == null) {
-            System.out.println("teachers is null");
+            System.out.println("Такого учителя нет");
             return;
         }
         System.out.println("-".repeat(separatorLength));

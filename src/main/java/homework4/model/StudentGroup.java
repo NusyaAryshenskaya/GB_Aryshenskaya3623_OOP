@@ -10,7 +10,7 @@ import java.util.List;
 
 @Getter
 @ToString
-//@Data
+
 public class StudentGroup implements Iterable<Student> {
 
     private final List<Student> studentsList;

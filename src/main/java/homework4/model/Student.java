@@ -7,8 +7,8 @@ import lombok.Getter;
 @EqualsAndHashCode(callSuper = true)
 public class Student extends User implements Comparable<Student> {
 
-    private Double gpa;  // Grade Point Average
-    private String adviser;  // Supervisor
+    private Double gpa;  
+    private String adviser;  
 
     public Student(Long id, String fullName, Integer age, String phoneNumber) {
         super(id, fullName, age, phoneNumber);

@@ -21,7 +21,7 @@ public class StudentService implements UserService<Student> {
     public void create(String fullName, Integer age, String phoneNumber) {
         for (Student student : studentRepository.getAll()) {
             if (student.getFullName().equals(fullName)) {
-                System.out.println("(create:)'"+fullName+ "' <- запись уже существует");
+                System.out.println("(Создать:) "+fullName+ " <- запись уже существует");
                 return;
             }
         }

@@ -25,7 +25,7 @@ public class StudentView implements UserView<Student> {
             default -> null;
         };
         if (students == null) {
-            System.out.println("students is null");
+            System.out.println("Такого студента нет");
             return;
         }
         System.out.println("-".repeat(separatorLength));

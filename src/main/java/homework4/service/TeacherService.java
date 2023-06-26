@@ -21,7 +21,7 @@ public class TeacherService implements UserService<Teacher> {
     public void create(String fullName, Integer age, String phoneNumber) {
         for (Teacher teacher : teacherRepository.getAll()) {
             if (teacher.getFullName().equals(fullName)) {
-                System.out.println("(create:)'"+fullName+ "' <- запись уже существует");
+                System.out.println("(Создать:) "+fullName+ " <- запись уже существует");
                 return;
             }
         }
@@ -76,8 +76,8 @@ public class TeacherService implements UserService<Teacher> {
     public void edit(String fullName, Integer age, String phoneNumber) {
         for (Teacher teacher : teacherRepository.getAll()) {
             if (teacher.getFullName().equals(fullName)) {
-                System.out.println("(edit:)'"+fullName+ "' <- запись найдена");
-                System.out.println("(edit:)*поля age и phoneNumber обновлены*");
+                System.out.println("(Редактировать:)'"+fullName+ "' <- запись найдена");
+                System.out.println("(Редактировать:) *поля возраст и номер телефона  обновлены*");
                 Long id = teacher.getId();
                 teacherRepository.remove(fullName);
                 Teacher editedTeacher = new Teacher(id, fullName, age, phoneNumber);
@@ -85,6 +85,6 @@ public class TeacherService implements UserService<Teacher> {
                 return;
             }
         }
-        System.out.println("(edit:)'"+fullName+ "' <- запись не найдена");
+        System.out.println("(Редактировать:)  "+fullName+ " <- запись не найдена");
     }
 }
