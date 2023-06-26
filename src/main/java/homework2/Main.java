@@ -11,11 +11,11 @@ public class Main {
 
         market.update();
 
-        Human human1 = new Human("Иван Федоров", 35, "Самара");
-        Human human2 = new Human("Полина Иванова", 25, "Углич");
-        Human human3 = new Human("Феофан Сидоров", 27, "Ярославль");
-        Human human4 = new Human("Терентий Попов", 29, "Вологда");
-        Human human5 = new Human("Евлампия Субботина", 32, "Санкт-Петербург");
+        Human human1 = new Human("Валерий Попов", 25, "Москва");
+        Human human2 = new Human("Артем Козелков", 29, "Тольятти");
+        Human human3 = new Human("Валентин Сидоров", 31, "Самара");
+        Human human4 = new Human("Андрей Свиридоа", 38, "Волгоград");
+        Human human5 = new Human("Дарья Терентьева", 31, "Санкт-Петербург");
 
         market.acceptToMarket(human1);
         market.acceptToMarket(human2);
